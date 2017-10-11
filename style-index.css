@@ -1,0 +1,36 @@
+header{
+    display: flex;
+}
+.slider{
+    display: flex;
+}
+.menu ul{
+    display: flex;
+}
+.services input{
+    position: relative;
+    display: none;
+
+}
+.services label{
+    display: block;
+    position: relative;
+
+}.services div{
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 260px;
+
+ }
+.services input:checked + label + div{
+    visibility: visible;
+    opacity: 1;
+    top:0px;
+
+}
+.services{
+    position: relative;
+    height: 250px;
+}
