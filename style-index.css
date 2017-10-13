@@ -39,3 +39,52 @@ button, input {
 .link:active {
     opacity: 0.3;
 }
+.head {
+    background: #404040;
+    height: 75px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eeeeee;
+    color: black;
+}
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    line-height: 75px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.drop-menu {
+    padding: 0 10px;
+    margin-left: -10px;
+
+}
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.drop-menu li {
+    font-weight: normal;
+    font-size: 15px;
+}
+.main-menu ul {
+    display: none;
+    background: white;
+}
+.main-menu li:hover > ul {
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
