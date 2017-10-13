@@ -23,3 +23,19 @@ i {
 button, input {
     outline: none;
 }
+.link {
+    text-decoration: none;
+    transition:  0.3s;
+}
+.white {
+    color: white;
+}
+.black {
+    color: black;
+}
+.link:hover {
+    color: #d8bb3b;
+}
+.link:active {
+    opacity: 0.3;
+}
