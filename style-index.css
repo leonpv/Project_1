@@ -150,3 +150,36 @@ button, input {
     background: white;
     color: #eab638;
 }
+.box {
+    padding: 25px 0 0 0;
+    margin: 25px 0;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+.listbox-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1000px;
+}
+.listbox-items li {
+    width: 125px;
+}
+.circle {
+    width: 115px;
+    height: 115px;
+    margin-bottom: 10px;
+    border-radius: 65px;
+    border: 5px solid #e5b138;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.circle:hover img{
+    filter: brightness(5);
+}
+.circle:hover {
+    background: #e8b537;
+    cursor: pointer;
+}
