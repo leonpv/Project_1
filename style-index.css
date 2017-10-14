@@ -75,6 +75,9 @@ button, input {
     width: 1000px;
     margin: 0 auto;
 }
+.wrap > h2 {
+    margin: 10px 0 -20px 0;
+}
 .drop-menu li {
     font-weight: normal;
     font-size: 15px;
@@ -292,4 +295,93 @@ ul img { transform: scale(0.75); }
     justify-content: space-around;
     color: white;
     background: #414141;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+}
+.phone {
+    color: #eeba38;
+}
+.search {
+    border: 1px solid white;
+    padding-left: 15px;
+    height: 20px;
+    color: white;
+    background: #3b3b3b;
+}
+.fa-search {
+    position: relative;
+    left: -80px;
+}
+.slider-servises {
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+    width: 1000px;
+    padding: 10px 0;
+}
+.slider-servises > input {
+    display: none;
+}
+.slider-servises > input + label {
+    display: block;
+    text-align: center;
+    width: 200px;
+    line-height: 35px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background 0.3s, color 0.3s, opacity 0.1s;
+    border: 1px solid black;
+    background: white;
+}
+.slider-servises > input:checked + label {
+    color: #f5bf3a;
+    background: black;
+}
+.slider-servises > input + label:hover {
+    color: #e2b135;
+    background: black;
+}
+.slider-servises > .slides-servises {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    text-align: left;
+    left: 250px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    color: black;
+}
+.slider-servises > input:checked + label + .slides-servises {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s;
+}
+.slides-servises img {
+    transform: scale(0.8)
+}
+.info {
+    margin-right: 25px;
+    width: 750px;
+}
+.btn-nav {
+    background: none;
+    color: lightgrey;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    transition: 0.3s;
+}
+.btn-nav:hover {
+    color: #e9b637;
+    border: 1px solid #e9b637;
+}
+.btn-nav:active {
+    opacity: 0.5;
 }
