@@ -162,3 +162,130 @@ button, input {
     align-items: center;
     width: 80px;
 }
+.catalog-menu {
+    margin: 15px 0 -20px 0;
+}
+.catalog-menu li {
+    margin-right: 10px;
+    font-weight: normal;
+    color: #aaaaaa;
+}
+.filter {
+    background: #f0f0f0;
+}
+.filter-2 {
+    line-height: 60px;
+    padding: 0 25px;
+    width: 250px;
+    height: 60px;
+    color: white;
+    background: #3c3c3c;
+}
+.filter-2 h3 {
+    color: white;
+}
+.filter-3 li{
+    margin-right: 10px;
+    font-weight: normal;
+    color: #9f9f9f;
+}
+.btn-nav {
+    background: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+.btn-nav:hover {
+    color: #e9b637;
+    border: 1px solid #e9b637;
+}
+.btn-nav:active {
+    opacity: 0.5;
+}
+.page-list .btn-nav {
+    width: 115px;
+    height: 30px;
+}
+.filter-4 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1000px;
+}
+.content {
+    padding: 0 25px;
+    width: 250px;
+    height: 400px;
+    color: white;
+    background: #464646;
+}
+.btn-action {
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #eab737;
+    transition: 0.5s;
+}
+.btn-action:hover {
+    border: 1px solid #eeba38;
+    background: white;
+    color: #eab737;
+}
+.btn-action:active {
+    opacity: 0.5;
+}
+.others {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+}
+.other {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px 50px;
+    width: 200px;
+    height: 270px;
+    margin: 40px 0 0 40px;
+    border: 1px solid lightgrey;
+}
+.other span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    width: 75px;
+    height: 25px;
+    padding: 3px 6px 0 6px;
+    color: white;
+    background: #6f9d38;
+}
+.numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 10px 340px;
+    width: 700px;
+}
+.numbers .circle {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    transition: 0.5s;
+    color: white;
+    border: 1px solid white;
+}
+.numbers .circle:hover {
+    color: #e8b537;
+    border: 1px solid #e6b436;
+    background: none;
+}
+.numbers .btn-nav {
+    width: 115px;
+    height: 30px;
+}
