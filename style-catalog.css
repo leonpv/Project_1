@@ -275,8 +275,8 @@ button, input {
     height: 25px;
     margin: 5px;
     transition: 0.5s;
-    color: white;
-    border: 1px solid white;
+    color: #e7b437;
+    border: 1px solid #f5bf3a;
 }
 .numbers .circle:hover {
     color: #e8b537;
@@ -284,6 +284,7 @@ button, input {
     background: none;
 }
 .numbers .btn-nav {
+    color: #e7b437;
     width: 115px;
     height: 30px;
 }
